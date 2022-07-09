@@ -1,12 +1,3 @@
-// Homework 1: Sales Register Program
-// Course: CIS357
-// Due date: 7/6/2022
-// Name: Robert Cvetanovski
-// GitHub: CzarOfAmerica
-// Instructor: Il-Hyung Cho
-/* Program description: This project creates a cash register like program
-    that adds up the items purchased and their quantity then gives the total at the end
-    where you are able to tender the necessary money and receive tha amount of change.*/
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -109,7 +100,7 @@ public class CashRegister {
         double sales = 0;
 
         // Print output
-        System.out.println("Welcome to Cvetanovski cash register system!");
+        System.out.println("Welcome to the cash register system!");
         System.out.println("Beginning a new sale (Y/N)");
         String ans = sc.next();
 
